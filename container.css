@@ -1,0 +1,165 @@
+.detail{
+    position: relative;
+    top: 0;
+    left: 255px;
+    max-width:calc(99.2% - 250px);
+    min-height: 100vh;
+    background-color:white;
+    overflow-x: hidden;
+    transition:.7s;
+}
+.detail.active{
+    left: 65px;
+    max-width:95%
+}
+.name_bax{
+    position: relative;
+    /* margin-top: 2vh; */
+    max-width: 100%;
+    min-height:clamp(80vh,20rem,100vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color:rgb(238, 235, 235);
+}
+#styleintro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 8rem;
+    background-color:rgb(9, 134, 192);
+    
+}
+#styleintr{
+    position: absolute;
+    bottom:0;
+    right:0;
+    width: 4px;
+    height: 8rem;
+    background-color:rgb(9, 134, 192);
+    
+}
+#headname{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.intro{
+    margin-bottom: 2rem;
+    margin-top: 1.3rem;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:clamp(96%,400px,98%);
+    min-height: 80vh;
+    transition: 1s;
+    background: white;
+}
+.word{
+    width: 90%;
+    min-height: 100%;
+    margin-top: 7rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    justify-content: center;
+    gap: 2rem;
+}
+.intro:last-child{
+    min-height: 90vh;
+    margin-bottom: 4rem;
+}
+.intro:first-child{
+    background-color:#33ccff;
+}
+.my_name{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.word{
+    margin-bottom: 3rem;
+}
+.hop_image{
+    position: absolute;
+    top: 0;
+    left: 1%;
+    min-width:98%;
+    height: 6rem;
+    border-bottom: 5px solid rgb(1, 9, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hop_image h1{
+    text-transform: uppercase;
+    color: rgb(11, 157, 241);
+    position: relative;
+}
+.intro .word h1{
+    font-size:1rem;
+    color: white;
+}
+.my_name h1{
+    font-size:2rem;
+}
+.intro .word p{
+    position: relative;
+    margin-top: 1rem;
+    display: flex;
+    background: linear-gradient(to left,rgb(12, 152, 218),rgb(12, 228, 228));
+    min-width: 20rem;
+    min-height:5rem ;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    text-transform: capitalize;
+    font-weight: 500;  
+    color:white;
+}
+.fa-fire{
+    color: red;
+    background:linear-gradient(145deg,rgb(206, 44, 44), 20%,yellow 80%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    margin-right: 1rem;
+    margin-top: .3rem;
+}
+
+.fa-paper-plane,.fa-school{
+    display: flex;
+    position:relative;
+    color: black;
+    margin-right: 1rem;
+}
+
+
+.image{
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    background:url(./Thanga\ Madasamy\ 2.png) no-repeat;
+    /* background-position:top; */
+    background-size: cover;
+    background-position: center;
+     background-color:white; 
+    border-radius:50%;
+     border: 2px solid white; 
+    /* box-shadow: 1px 2px 5px rgb(9, 156, 224),3px 4px 9px rgb(9, 156, 204); */
+}
+.intro .word p{
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: justify;
+
+}

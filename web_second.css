@@ -1,0 +1,62 @@
+/* nav bar top styling */
+.nav_top{
+    position: relative;
+    width: 100%;
+    height: 11vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    z-index: 200;
+    justify-content: center;
+    border-bottom: 3px solid rgb(9, 156, 224);
+}
+/* project head line style */
+#cap{
+    text-decoration-line: underline ;
+    
+}
+/*  top menubar styling */
+#menubar{
+    position:absolute;
+    width: 14em;
+    height: 2rem;
+    display: flex;
+    left: 20px;
+}
+/* menu bar */
+#head:first-child{
+    width: 30%;
+    text-align: center;
+    color: rgb(9, 156, 224);
+}
+/* menubar hover effect */
+#head:first-child:hover{
+    cursor: pointer;
+}
+/* menu head title styling */
+#head:nth-child(2){
+    position: relative;
+    font-size: 1.5rem;
+    margin-left: .4rem;
+    margin-top: -.2rem;
+    width: auto;
+    display: flex;
+    font-weight: 600;
+    color: gray;
+    background:linear-gradient(35deg,rgb(28, 8, 204) 50%,rgb(5, 15, 5));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    justify-content: start;
+    text-align: top;    
+}
+/* title logo styling */
+#logo{
+    position:relative;
+    width: 10rem;
+    height: 6rem;
+    margin-top: -2rem;
+    background-image: url(./Logo\ -\ vectorized.png);
+    background-position: center;
+    background-size: cover;
+}
+

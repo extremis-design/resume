@@ -1,0 +1,54 @@
+@media screen and (max-width:50em){
+    .detail{
+        left: 0;
+        min-width:100%;
+    }
+    .detail.active{
+        left: 0;
+        min-width:100%;
+    }
+    .intro{
+        position: relative;
+        display: flex;
+        border-radius:none;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 98vw;
+        min-height: 460px;
+        
+    }
+    .name_bax{
+        margin-top: 12vh;
+        min-height: 60vh;
+        background: rgb(243, 242, 242);
+    }
+    .word{
+        width: 100%;
+    }
+    .word h1{
+        font-size: 7vw;
+        
+    }
+    .word{
+        width: 80%;
+        min-height: 100%;
+        margin-top: 7rem;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        grid-column-gap: 1rem;
+        grid-row-gap: 2rem;
+        /* background-color: gray; */
+    }
+    .intro .word p{
+        width: 90%;
+    }
+    .image{
+        margin-top: 20px;
+        width: 15rem;
+        height: 15rem;
+
+    }
+    
+}

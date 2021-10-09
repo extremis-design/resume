@@ -1,0 +1,14 @@
+@media screen and (max-width:50em){
+    .nav_left{
+        position: fixed;
+        left: -200%;
+        transition: .5s;
+        
+    }
+    .nav_left.active{
+        left: 0;
+        min-width: 100%;
+        
+        
+    }
+}
